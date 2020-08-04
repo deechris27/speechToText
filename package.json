@@ -1,0 +1,32 @@
+{
+  "name": "voice",
+  "version": "1.0.0",
+  "description": "speech recognition app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --hot --port 4000",
+    "build": "webpack --mode=production",
+    "deploy": "gh-pages -d /dist"
+  },
+  "homepage": "http://deechris27.github.io/voice",
+  "keywords": [],
+  "author": "Deepak",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
