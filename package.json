@@ -6,9 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development --hot --port 4000",
     "build": "webpack --mode=production",
-    "deploy": "gh-pages -d /dist"
+    "deploy": "gh-pages -d ./dist"
   },
-  "homepage": "http://deechris27.github.io/voice",
+  "homepage": "https://deechris27.github.io/speechToText/",
   "keywords": [],
   "author": "Deepak",
   "license": "ISC",
